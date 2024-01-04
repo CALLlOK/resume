@@ -7,79 +7,94 @@
   <meta name="keywords" content="games, torrent, download">
   <meta name="description" content="Чередник Александр">
   <title>Резюме</title>
+  <link rel="stylesheet" href="01_text.css">
 </head>
 
 <body>
-  <img src="4.jpg" alt="Чередник Александр" width="200" >
-  <h1>Чередник Александр</h1>
+  <div class="container">
+    <div class="info">
+      <img src="4.jpg" alt="Чередник Александр" class="avatar">
+      <div class="info-text">
+        
+        <h1>Чередник Александр</h1>
+        
+        <p>Я сотрудник ГУФСИН в отставке, увлекаюсь <em>программированием по frontend разработке, автомобилями, изучением английского языка.</em></p>
+        <p>Люблю <strong>путешествовать</strong>, заниматься спортом, узучать что-то новое.</p>
+        
+        <h4>Список социальных сетей:</h4>
+        <a href="https://vk.com/alex_hour" target="_blank" class="vk">Вконтакте</a> |
+        <a href="https://t.me/alex_hour" target="_blank" class="tg">Телеграмм</a>
+      </div>
+    </div>
+    
+    <div class="card bg-FloralWhite">
+      <h2>Мои Хобби</h2>
+      <ol class="list">
+        <li>Путешествия</li>
+        <li>Танцы</li>
+        <li>Спорт</li>
+        <li>Программирование</li>
+        <li>Автомобили</li>
+      </ol>
+    </div>
+    
+    <div class="card bg-LemonChiffon">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <!-- <thead>
+          <tr>
+            <th align="left">Название работы</th>
+            <th>Должность</th>
+            <th>Период работы</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td>Мир антен</td>
+            <td>Выезной мастер</td>
+            <td>2010-2010</td>
+          </tr>
+          <tr>
+            <td>ГУФСИН</td>
+            <td>Начальник отдела безопасности</td>
+            <td>2010-2023</td>
+          </tr>
+          <tr>
+            <td>Guru autotechnology</td>
+            <td>Мастер реставрации ЛКП автомобиля</td>
+            <td>2023 - сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-  <p>Я пенсионер ГУФСИН, увлекаюсь <em>программированием</em> по frontend разработке</p>
-<hr>
-  <p>Люблю <strong>путешествовать</strong>, узучать что-то новое</p>
+    <div class="card bg-LightCyan">
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
 
-  <h4>Список социальных сетей</h4>
-  <a href="https://vk.com/alex_hour" target="_blank">Вконтакте</a> |
-  <a href="https://t.me/alex_hour" target="_blank">Телеграмм</a>
+      <div class="form-row">
 
-<h4>Мои Хобби</h4>
-
-<ol>
-  <li>Путешествия</li>
-  <li>Танцы</li>
-  <li>Спорт</li>
-  <li>Программирование</li>
-  <li>Автомобили</li>
-</ol>
-
-<table>
-  <thead>
-    <tr>
-    <th>Название работы</th>
-    <th>Должность</th>
-    <th>Период работы</th>
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td>Мир антен</td>
-    <td>Выезной мастер</td>
-    <td>2010-2010</td>
-  </tr>
-  <tr>
-    <td>ГУФСИН</td>
-    <td>Начальник отдела безопасности</td>
-    <td>2010-2023</td>
-  </tr>
-  <tr>
-    <td>Guru autotechnology</td>
-    <td>Мастер реставрации сколов и царапин на ЛКП автомобиля</td>
-    <td>2023 - сейчас</td>
-  </tr>
-  </tbody>
-</table>
-
-<h5>Связаться со мной</h5>
-
-<form>
-  <div>
-    <label for="text">Ваше имя:</label>
-    <input type="text" id="text" placeholder="Введите имя">
-  </div>
-
-  <div>
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" placeholder="Введите email">
-  </div>
-
-  <div>
-    <label for="message">Ваше ообщение:</label>
-    <br>
-    <textarea id="message" cols="30" rows="10" placeholder="Ваше сообщение..."></textarea>
-  </div>
-
-  <div>
-     <input type="submit" value="Отправить!">
-  </form>
-</body>
-
-</html>
+        <div class="form-group">
+          <label for="text">Ваше имя:</label>
+          <input type="text" id="text" placeholder="Введите имя">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+        
+        <div class="form-group">
+          <label for="message">Введите сообщение:</label>
+          <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение..."></textarea>
+        </div>
+        
+        <div>
+          <input type="submit" value="Отправить" class="btn">
+        </form>
+      </div>
+    </div>
+    </body>
+    
+    </html>
